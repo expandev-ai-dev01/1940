@@ -2,12 +2,11 @@ import axios from 'axios';
 
 export const apiConfig = {
   baseUrl: import.meta.env.VITE_API_URL,
-  version: import.meta.env.VITE_API_VERSION || 'v1',
   get externalUrl() {
-    return `${this.baseUrl}/api/${this.version}/external`;
+    return `${this.baseUrl}/api/external`;
   },
   get internalUrl() {
-    return `${this.baseUrl}/api/${this.version}/internal`;
+    return `${this.baseUrl}/api/internal`;
   },
 };
 
