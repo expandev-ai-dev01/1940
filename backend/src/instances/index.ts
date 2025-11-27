@@ -10,3 +10,13 @@
  * InitExample instances
  */
 export { initExampleStore, type InitExampleRecord } from './initExample';
+
+/**
+ * Vehicle instances
+ */
+export { vehicleStore, type VehicleRecord } from './vehicle';
+
+/**
+ * Contact instances
+ */
+export { contactStore } from './contact';
